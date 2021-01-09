@@ -1,8 +1,10 @@
 'use strict';
 
 const onClickAdd = () => {
-  const inputText = document.getElementById("add-text").value;
-  document.getElementById("add-text").value = "";
+  const addText = document.getElementById("add-text");
+  const inputText = addText.value;
+  addText.value = "";
+
     // ID欄作成
     const ul = document.getElementById("todo-list");
     const idDiv = document.getElementById("id-list");
@@ -37,10 +39,10 @@ const onClickAdd = () => {
     conditionButton.className = "conditionButton";
     const doingButton = document.createElement("button");
     doingButton.className = "doing";
-    doingButton.innerText = "作業中­"; 
+    doingButton.textContent = "作業中­"; 
     const deleteButton = document.createElement("button");
     deleteButton.className = "delete";
-    deleteButton.innerText = "削除"; 
+    deleteButton.textContent = "削除"; 
     ul.appendChild(conditionDiv);
     conditionDiv.appendChild(conditionTitle);
     conditionTitle.appendChild(conditionButton);
@@ -48,6 +50,5 @@ const onClickAdd = () => {
     conditionButton.appendChild(deleteButton);
   };
 
-document
-.getElementById("add-button")
-.addEventListener("click", () => onClickAdd());
+const addButton = document.getElementById("add-button");
+addButton.addEventListener("click", () => onClickAdd());
