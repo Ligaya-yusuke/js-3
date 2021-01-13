@@ -11,26 +11,42 @@
     <div class="radio">
       <input type="radio" checked>すべて
       <input type="radio">作業中
-      <input type="radio">完了    
+      <input type="radio">完了
     </div>
     
     <ul id="todo-list">
       <div id="id-list">
         <div id="id-title"><span class="id-bold">ID</span></div>
+        <!-- <li class="id">0 </li>
+        <li class="id">1 </li> -->
       </div>
       <div id ="comment-list">
         <div id="comment-title"><span>コメント</span></div>
+        <!-- <li class="comment">aaa</li>
+        <li class="comment">bbb</li> -->
       </div>
       <div id="condition-list">
-        <div id="condition-title"><span>状態</span></div>
+        <div id="condition-title"><span class="condition">状態</span>
+            <!-- <li class="doing-button-list">
+              <button id ="doing">作業中</button>
+            <li class="doing-button-list">
+              <button id ="doing">作業中</button> -->
+        </div>
+      </div>
+
+      <div id = "delete-buttons">
+        <div id ="delete-title">&shy;
+          <!-- <li class="delete-button-list">
+            <button class = "delete">削除</button>
+          <li class="delete-button-list">
+            <button class = "delete">削除</button> -->
+        </div>
       </div>
     </ul>
   
   <h2>新規タスクの追加</h2>
   <input type="text" id="add-text">  
   <button id="add-button">追加</button>
-  <script src=js-3.js>
-    
-  </script>
+  <script src=js-3.js></script>
 </body>
 </html>

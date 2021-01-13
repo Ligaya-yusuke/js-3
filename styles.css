@@ -1,11 +1,9 @@
 body {
   margin-left: 5px;
 }
-
 h2 {
   margin-top: 20px;
 }
-
 ul {
   display: flex;
   list-style: none;
@@ -27,32 +25,28 @@ button {
   font-size: 10px;
   border: solid 1px;
 }
-
 span {
   font-weight: bold;
 }
-
 #id-list {
   margin-top: 4.5px;
-}
-
-#id-title {
 }
 #comment-list {
   margin-left: 3px;
 }
+
 #condition-list {
   margin-left: 3px;
+}
+
+#delete-title {
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .radio {
   margin-top: 20px;
 }
-
 .comment {
   font-weight: none;
-}
-
-.delete {
-  margin-left: 5px;
 }
