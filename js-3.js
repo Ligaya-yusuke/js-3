@@ -2,7 +2,7 @@
 
 // to-do追加
 const addButton = document.getElementById("add-button");
-const onClickAdd = addButton.addEventListener("click", () => {
+addButton.addEventListener("click", () => {
   const addText = document.getElementById("add-text");
   showToDo();
   doingButtonFactory();
@@ -39,7 +39,6 @@ const showToDo = () => {
   ul.appendChild(commentDiv);
   commentDiv.appendChild(commentTitle);
   commentTitle.appendChild(commentList);
-  console.log(inputText)
 }
   // 作業中ボタン作成
 const conditionDiv = document.getElementById("condition-list");
