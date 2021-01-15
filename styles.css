@@ -27,13 +27,18 @@ button {
 }
 span {
   font-weight: bold;
+  text-align: center;
 }
 #id-list {
   margin-top: 4.5px;
+  text-align: center;
 }
 #comment-list {
   margin-left: 3px;
+  text-align: center;
 }
+/* #comment-title {
+} */
 
 #condition-list {
   margin-left: 3px;
@@ -41,7 +46,7 @@ span {
 
 #delete-title {
   margin-left: 5px;
-  margin-top: 5px;
+  margin-top: 4.5px;
 }
 
 .radio {
@@ -49,4 +54,5 @@ span {
 }
 .comment {
   font-weight: none;
+  text-align: left;
 }
